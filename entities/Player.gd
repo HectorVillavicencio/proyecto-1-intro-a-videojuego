@@ -14,4 +14,4 @@ func _process(delta):
 	var direction = int(Input.is_action_pressed("move_right")) - int(Input.is_action_pressed("move_left"))
 #otra manera mas bonita
 
-	position.x += direction * 50 * delta
+	position.x += direction * speed * delta

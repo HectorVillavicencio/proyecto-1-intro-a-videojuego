@@ -23,4 +23,4 @@ expand = true
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 490, 295 )
 script = ExtResource( 2 )
-speed = 15000.0
+speed = 150.0
